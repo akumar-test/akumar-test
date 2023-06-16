@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_akumar_test_1686899609656-push-trigger-input-set
+  identifier: Build_akumar_test_1686899609656pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_akumar_test_1686899609656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
