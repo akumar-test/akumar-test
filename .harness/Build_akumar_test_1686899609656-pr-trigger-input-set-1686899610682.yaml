@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_akumar_test_1686899609656-pr-trigger-input-set
+  identifier: Build_akumar_test_1686899609656prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_akumar_test_1686899609656
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
